@@ -1,0 +1,202 @@
+
+.textzwart{
+
+  font-family: 'Lora', serif;
+    font-weight: 400;
+    color: black;
+}
+
+.textwit{
+
+  font-family: 'Lora', serif;
+    font-weight: 400;
+    color: white;
+}
+
+.titelswit{
+
+  font-family: 'Bebas Neue', cursive;
+  color:white;
+}
+.titelszwart{
+
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+}
+
+
+.skate{
+color: black;
+font-family: 'Lora', serif;
+    font-weight: 400;
+
+}
+
+*{
+    font-family: 'Lora', serif,Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+    
+}
+
+.titels{
+
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.titels2{
+
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Ultra', serif;
+}
+
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
+        
+        padding: 5px;}
+  }
+
+
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  h1 {
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #333;
+  }
+  h1 span {
+    display: inline-block !important;
+    animation: slideLeft 1.5s forwards !important;
+    opacity: 0;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)!important;
+  }
+  
+  @keyframes slideLeft {
+    from {
+      opacity: 0;
+      transform: translateX(200px);
+    } 
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+  
+  select{
+    background:white !important;
+    color:black !important;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4) !important;
+}
+option:not(:checked) { 
+    background-color: white !important; 
+    color:#000 !important;
+}
+  
+  
+  
+  .toast
+  {
+    z-index: 2 !important;
+  }
+  
+
+
+
+
+
+
+.carousel-item {
+    height: 1000px;
+    
+}
+
+
+  .carousel-indicators li {
+    display: inline-block;
+    width: 48px;
+   
+    height: 48px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #a89f99;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 48px;
+    height: 48px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.carousel-indicators {
+    bottom: +900px;
+}
+.bodybasketpage{
+    background-color: red;
+    
+}
+
+
+
+  .btn {
+    position: relative
+}
+
+.btn-text {
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    padding: 20px 30px
+}
+
+.btn-box {
+    background-color: red;
+    transition: all 1s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%
+}
+
+.btn:hover .btn-box {
+    width: 81px;
+    height: 5px;
+    transform: translate3d(50px, 0, 0);
+    top: auto
+
+}
+
+
+
+
+
+
+
+
+
+
